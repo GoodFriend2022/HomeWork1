@@ -33,5 +33,5 @@ string[] FindElementLessThree(string[] array)
 string[] words = {"Someday", "getting", "a", "full-fledged", "profession", "via",
     "the", "Internet", "will", "become", "a", "new", "reality", "for", "humanity"};
 Prompt(words);
-
-System.Console.WriteLine(words[2].Length);
+string[] wordsLessThree = FindElementLessThree(words);
+Prompt(wordsLessThree);
